@@ -1,0 +1,78 @@
+/* main styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    background-color: #c2f0fc;
+    width: 50%;
+}
+
+/* buttons styles */
+
+.btn {
+    display: block;
+    width: 25%;
+    margin: 1em auto auto auto;
+    background: #3D94F6;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 20px;
+    box-shadow: 1px 1px 20px 0px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+    
+.btn:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+/* Game field's styles */
+
+#gameField{
+
+    margin-top: 2em;
+    margin-bottom: 1em;
+    position: relative;
+    left: 5%;
+    width: 90%;
+    height: 20em;
+    background-color: #ffebd9;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#gameField > div {
+
+    outline: solid #FFFFFF 5px;
+    width: 25%;
+    height: 25%;
+    align-items: flex-start;
+    background-color: #639a67;
+    font-size: 1em;
+    color: #FFFFFF;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gameField > div:hover{
+    cursor: pointer;
+    background-color: #2b580c;
+}
